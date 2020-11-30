@@ -2,7 +2,7 @@
 
 ## Description 
 
-My React portfolio provides a polished new portfolio using React instead of the original html. At the top of the page, I included my name, phone number, email, and a short description of the knowledge I have gained throughout my time in the Full Stack Coding Bootcamp. I used Material UI cards to insert a few of my projects for the viewer to see. The viewer can click on each individual project and it will link them to my GitHub repositories. I included three buttons that also link the viewer to my LinkedIn, my GitHub, and my resume. At the bottom of the portfolio, I included a contact form so anyone is able to contact me if they so chose. 
+My React portfolio provides a polished new portfolio using React instead of the original html. At the top of the page, I included my name, phone number, email, and a short description of the knowledge I have gained throughout my time in the Full Stack Coding Bootcamp. I used Material UI cards to insert a few of my projects for the viewer to see. The viewer can click on each individual project and it will link them to my GitHub repositories. I included three buttons that also link the viewer to my LinkedIn, my GitHub, and my resume. At the bottom of the portfolio, I included a contact form so anyone is able to contact me if they so chose. At the very bottom of the page, I added a footer with my name and the year. 
 
 
 ## Installation
