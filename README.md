@@ -2,22 +2,17 @@
 
 ## Description 
 
-My website provides a biography of who I am, my most recent career, my family, and some important information regarding who I am and what I like. I provided photos of my little family along with some from my travels both on and off the job as a flight attendant. Specifically on my portfolio page, I included one of my favorite pictures of my husband returning from his third deployment from the Middle East. We travel a lot with our dog and do a lot of exploring around Colorado which makes for some really great photos. On my contact page, I provided a column for emails to be sent along with my facebook link. The portfolio is responsive to all mobile phone users, laptop users, and tablet users. 
-
+My React portfolio provides a polished new portfolio using React instead of the original html. At the top of the page, I included my name, phone number, email, and a short description of the knowledge I have gained throughout my time in the Full Stack Coding Bootcamp. I used Material UI cards to insert a few of my projects for the viewer to see. The viewer can click on each individual project and it will link them to my GitHub repositories. I included three buttons that also link the viewer to my LinkedIn, my GitHub, and my resume. At the bottom of the portfolio, I included a contact form so anyone is able to contact me if they so chose. 
 
 
 ## Installation
 
 npm i
 
-## Usage 
-
-Unsure
-
 
 ## Credits
 
-I have to thank my professor and our TA's for all of the information and help regarding this assignment. I also had a lot of help from my peers in class as well.
+I have to thank my professor and my TA's for all of the information and help regarding this assignment and using React.
 
 
 
@@ -45,10 +40,6 @@ LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
 OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 SOFTWARE.
 
-(unsure of licensing)
-
----
-
 
 ## Technology Used
 
@@ -58,7 +49,8 @@ React, Material UI
 
 ## Links 
 
-https://github.com/jessicaano92/portfolio 
-https://jessicaano92.github.io/portfolio/
+GitHub Link - https://github.com/jessicaano92/react_portfolio
+
+Heroku Link - https://vast-hamlet-93976.herokuapp.com/
 
 
