@@ -2,6 +2,7 @@ import React from "react";
 import Homepage from "./components/Homepage";
 import Contact from "./components/Contact";
 import Portfolio from "./components/Portfolio";
+import Footer from "./components/Footer";
 import './App.css';
 
 
@@ -16,6 +17,7 @@ function App() {
         <Portfolio />
       
       <Contact />
+      <Footer />
     </div>
   );
 }
