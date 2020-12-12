@@ -1,5 +1,4 @@
 import React from "react";
-import NavBar from "./components/NavBar"
 import Home from "./pages/Home";
 import Contact from "./pages/Contact";
 import { BrowserRouter, Route } from "react-router-dom";
@@ -8,13 +7,11 @@ import Projects from "./pages/Projects";
 import './App.css';
 
 
-
-
-
 function App() {
   return (
     <BrowserRouter>
     <div>
+      
       <Home />
       <Route exact path ="/" component={Home}/>
       <Route exact path ="/biography" component={Biography}/>
