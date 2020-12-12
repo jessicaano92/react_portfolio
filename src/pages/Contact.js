@@ -1,5 +1,4 @@
 import React from "react";
-import "./style.css";
 import {Button, TextField} from "@material-ui/core";
 
 
@@ -12,7 +11,7 @@ const Contact = () => {
 
     return (  
         <>      
-        <h2>Contact Me</h2>
+        <h2 className="text-center">Contact Me</h2>
         <div className="ContactMe">
 
           <form>

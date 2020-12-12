@@ -1,8 +1,10 @@
 import React from "react";
-import Homepage from "./components/Homepage";
-import Contact from "./components/Contact";
-import Portfolio from "./components/Portfolio";
-import Footer from "./components/Footer";
+import NavBar from "./components/NavBar"
+import Home from "./pages/Home";
+import Contact from "./pages/Contact";
+import { BrowserRouter, Route } from "react-router-dom";
+import Biography from "./pages/Biography";
+import Projects from "./pages/Projects";
 import './App.css';
 
 
@@ -11,14 +13,18 @@ import './App.css';
 
 function App() {
   return (
+    <BrowserRouter>
     <div>
-      <Homepage />
+      <Home />
+      <Route exact path ="/" component={Home}/>
+      <Route exact path ="/biography" component={Biography}/>
+      <Route exact path ="/contact" component={Contact}/>
+      <Route exact path ="/projects" component={Projects}/>
       
-        <Portfolio />
-      
-      <Contact />
-      <Footer />
+    
+     
     </div>
+    </BrowserRouter>
   );
 }
 
