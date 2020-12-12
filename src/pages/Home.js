@@ -8,7 +8,7 @@ function Home () {
         <>
 
         <div>
-            <h1 className="name" data-shrink-original-size="22" style={{letterSpacing: "0.181818em"}}>Jessica Anocibar</h1>
+            <h1 className="name" style={{letterSpacing: "0.181818em"}}>Jessica Anocibar</h1>
         </div>
         <div className="topNav">
             <a href="/Home" style={{letterSpacing: "0.181818em"}}>Home </a>

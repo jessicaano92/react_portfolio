@@ -13,7 +13,7 @@ import pic3 from '../../src/assets/pic3.png';
 
 const useStyles = makeStyles({
     root: {
-      maxWidth: 1000,
+      maxWidth: 900,
       margin: "auto",
       textAlign: "center",
     },
