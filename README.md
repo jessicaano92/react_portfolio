@@ -43,7 +43,7 @@ SOFTWARE.
 
 ## Technology Used
 
-React, Material UI
+React, Material UI, Bootstrap, Express, Axios
 
 
 
