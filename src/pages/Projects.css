@@ -1,25 +1,112 @@
+ 
 
-
-   img {
-    height: 40%;
-    padding: 14px;
+  
+  .techImg{
+    transform: scale(2);
+    margin: 0px 10px;
   }
   
-  .card-title {
+  .portfolioDeck{
+    padding: 30px;
+  }
+  
+  .card-img-top{
+    padding: 20px;
+    border-radius: 5px;
+    height: 300px;
+    width: auto;
+    align-content: center;
+  }
+
+  .mealMatchImg {
+    height:300px;
+    width: 360px;
+  }
+  
+  /* .card-title {
     font-family: "Cedarville Cursive", cursive;
-    font-size: 30px;
+    font-size: 50px;
     margin-left: 20px;
     margin-top: -10px;
+  } */
+  
+  p {font-size: 16px;}
+  .margin {margin-bottom: 45px;}
+  
+  
+  .container-fluid {
+    padding-top: 30px;
+    padding-bottom: 50px;
   }
   
-  .card-home {
-    align-items: center;
-    justify-content: center;
-    background-color: whitesmoke;
-    margin-left: auto;
-    margin-right: auto;
-    margin: 10px;
-    padding: 5px;
-    height: 400px;
-  }
+
+  .btn-default {
+      margin: 10px;
+  } 
+   
+  h5 {
+    /* font-family: 'Cedarville Cursive', cursive;
+    font-size: 30px;
+    margin-left: 20px; */
+
+  font: 20px Montserrat, sans-serif;
+  line-height: 1.8;
+  color: #030d18;
+}
+p {
+  font-size: 16px;
+}
+.margin {
+  margin-bottom: 45px;
+}
+
+.card-row {
+  margin-bottom: 50px;
+}
+.container-fluid {
+  padding-top: 30px;
+  padding-bottom: 50px;
+}
+
+.btn-default {
+  margin: 10px;
+}
+
+img {
+  height: 50%;
+  padding: 14px;
+}
+
+.card-title {
+  font-family: "Cedarville Cursive", cursive;
+  font-size: 30px;
+  margin-left: 20px;
+  margin-top: -10px;
+}
+
+.card-home {
+  align-items: center;
+  justify-content: center;
+  background-color: rgb(248, 243, 237);
+  border: 4px;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 5px;
+  height: 550px;
+}
+
+a {
+  color: grey;
+}
+
+a.stretched-link {
+  color: khaki;
+}
+
+.card-text {
+  color: black;
+}
+
+
+  
 
