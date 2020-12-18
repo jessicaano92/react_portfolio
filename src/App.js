@@ -1,15 +1,15 @@
 import React from "react";
 import Home from "./pages/Home";
 import Contact from "./pages/Contact";
-import { BrowserRouter, Route } from "react-router-dom";
+import { BrowserRouter as Router, Route } from "react-router-dom";
 import Biography from "./pages/Biography";
 import Projects from "./pages/Projects";
-import './App.css';
+
 
 
 function App() {
   return (
-    <BrowserRouter>
+    <Router>
     <div>
       
       <Home />
@@ -22,7 +22,7 @@ function App() {
     
      
     </div>
-    </BrowserRouter>
+    </Router>
   );
 }
 

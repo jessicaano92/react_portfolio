@@ -1,16 +1,36 @@
 h3 {
-    color: whitesmoke;
+    color: black;
+    font-size: 20px;
 }
 
-.header4 {
-    color: whitesmoke;
-}
-
-.links {
+.header4, .header2 {
+    color: black;
     text-align: center;
-    margin-left: 500px;
-    margin-right: auto;
-    margin-bottom: 15px;
+    position: relative;
+    margin-top: 5px;
+  
+}
+
+.aboutText{
+    text-align: center;
+    padding-top: 20px;
+    font-family: 'Source Code Pro', monospace;
+  }
+
+.bioImg {
+    height: 350px;
+    border-radius: 200px;
 }
 
 
+.container-fluid, .bio {
+    text-align: center;
+    padding-bottom: 5%;
+
+}
+
+
+  .bioCard {
+     text-align: center;
+
+  }

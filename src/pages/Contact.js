@@ -77,7 +77,7 @@ function Contact () {
           </div>
           <div className="col-12 col-md-6 contactTop">
             <a className="iconLink" href="https://docs.google.com/document/d/15OrXH2swnd23Tp7LjEX_iduBu64d5lslRC4etvywwSU/edit?usp=sharing" rel="noopener noreferrer" target="_blank">
-              <ReactBootstrap.Button variant="link" className="contactBtn">Download Resume</ReactBootstrap.Button>
+              <ReactBootstrap.Button variant="link" className="contactBtn">View Resume</ReactBootstrap.Button>
             </a>
           </div>
         </div>

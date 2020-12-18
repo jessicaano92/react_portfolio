@@ -5,4 +5,7 @@
 
 .name {
   color: black;
+  font-size: 70px;
+  font-family: 'Amatic SC', cursive;
+  padding-left: 10px;
 }

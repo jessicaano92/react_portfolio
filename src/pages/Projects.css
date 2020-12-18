@@ -1,0 +1,25 @@
+
+
+   img {
+    height: 40%;
+    padding: 14px;
+  }
+  
+  .card-title {
+    font-family: "Cedarville Cursive", cursive;
+    font-size: 30px;
+    margin-left: 20px;
+    margin-top: -10px;
+  }
+  
+  .card-home {
+    align-items: center;
+    justify-content: center;
+    background-color: whitesmoke;
+    margin-left: auto;
+    margin-right: auto;
+    margin: 10px;
+    padding: 5px;
+    height: 400px;
+  }
+

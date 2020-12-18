@@ -1,5 +1,4 @@
 import React from 'react';
-import { makeStyles } from '@material-ui/core/styles';
 import Card from '@material-ui/core/Card';
 import CardActionArea from '@material-ui/core/CardActionArea';
 import CardContent from '@material-ui/core/CardContent';
@@ -8,30 +7,20 @@ import Typography from '@material-ui/core/Typography';
 import proj3 from '../../src/assets/proj3.png';
 import proj2 from '../../src/assets/proj2.png';
 import pic3 from '../../src/assets/pic3.png';
+import "./Projects.css";
 
 
-
-const useStyles = makeStyles({
-    root: {
-      maxWidth: 900,
-      margin: "auto",
-      textAlign: "center",
-    },
-  
-  });
 
 
   export default function Projects() {
     
-    const styles = useStyles();
-  
-  
+
   
     return (
 <>
-<h2 className="text-center">Projects</h2>
+<h2 className="text-center">My Projects</h2>
     <div onClick={() => window.open('https://giftr-registry.herokuapp.com/')}>
-      <Card className={styles.root}>
+      <Card className="proj-cards">
         <CardActionArea>
         <img className='Image' src={proj3} alt='Giftr Registry' />
           <CardContent>
@@ -48,7 +37,7 @@ const useStyles = makeStyles({
 
   
     <div onClick={() => window.open('https://dry-scrubland-38194.herokuapp.com/')}>
-      <Card className={styles.root}>
+      <Card className="proj-cards">
         <CardActionArea>
         <img className='Image' src={proj2} alt='Couch Surfers Blog' />
           <CardContent>
@@ -64,7 +53,7 @@ const useStyles = makeStyles({
       </div>
 
     <div onClick={() => window.open('https://jessicaano92.github.io/meal_matcher_javascript_ajax/')}>
-      <Card className={styles.root}>
+      <Card className="proj-cards">
         <CardActionArea>
         <img className='Image' src={pic3} alt='Meal Matcher' />
           <CardContent>
@@ -80,6 +69,9 @@ const useStyles = makeStyles({
       </div>
 
      
-      </>
+      </> 
+
+
+    
     );
   }
