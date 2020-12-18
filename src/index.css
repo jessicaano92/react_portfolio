@@ -1,25 +1,13 @@
-/* 
-  box-sizing: border-box;
-}
 
-html,
-body,
-#root,
-#root > div,
-div[data-reactroot] {
-  height: 100%;
-  padding: 0;
-  margin: 0;
-} */
 
-body {
+ body {
   background-image: url('./assets/bg2.jpg');
   height: 80%;
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
  
-}
+} 
 
 .contactPage{
   overflow: hidden;

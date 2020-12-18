@@ -11,6 +11,9 @@ h3 {
   
 }
 
+p {
+    font-size: 16px;
+  }
 .aboutText{
     text-align: center;
     padding-top: 20px;

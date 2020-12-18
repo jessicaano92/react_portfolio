@@ -11,7 +11,7 @@ import {
   DiNpm,
   DiReact,
 } from "react-icons/di";
-import { Card } from "react-bootstrap";
+// import { Card } from "react-bootstrap";
 import CardActionArea from "@material-ui/core/CardActionArea";
 import CardContent from "@material-ui/core/CardContent";
 import Typography from "@material-ui/core/Typography";
@@ -20,19 +20,22 @@ import proj3 from "../../src/assets/proj3.png";
 import proj2 from "../../src/assets/proj2.png";
 import proj1 from "../../src/assets/proj1.png";
 import "./Projects.css";
+import Card from "../components/Card/Cards";
 
 export default function Projects() {
   return (
     <>
-      <h2 className="text-center">My Projects</h2>
+
+    <Card />
+      {/* <h2 className="text-center">My Projects</h2>
 
       <div className="container-fluid">
         <div className="text-center">
           <h3 className="margin"> </h3>
           <br />
           <div className="row card-row">
-            <div className="card-home col-sm-3">
-              <img src={proj3} className="card-img-top" alt="..." />
+            <div className="card-home col-md-4">
+              <img src={proj3} className="card-img-top" alt="Giftr" />
               <div className="card-body">
                 <h5 className="card-title">Giftr</h5>
                 <p className="card-text">
@@ -69,8 +72,8 @@ export default function Projects() {
               </div>
             </div>
 
-            <div className="card-home col-sm-3">
-              <img src={proj2} className="card-img-top" alt="..." />
+            <div className="card-home col-md-4">
+              <img src={proj2} className="card-img-top" alt="Couch Surfers" />
               <div className="card-body">
                 <h5 className="card-title">Couch Surfers</h5>
                 <p className="card-text">
@@ -104,11 +107,11 @@ export default function Projects() {
               </div>
             </div>
 
-            <div className="card-home col-sm-3">
+            <div className="card-home col-md-4">
               <img
                 src={proj1}
-                className="card-img-top mealMatchImg"
-                alt="..."
+                className="card-img-top"
+                alt="Meal Matcher"
               />
               <div className="card-body">
                 <h5 className="card-title">Meal Matcher</h5>
@@ -142,7 +145,7 @@ export default function Projects() {
             </div>
           </div>
         </div>
-      </div>
+      </div> */}
     </>
   );
 }
