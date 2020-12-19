@@ -18,12 +18,14 @@
 }
 
 .contactH3 {
-  text-align: center
+  text-align: center;
+  font-family: 'Kaushan Script', cursive;
 }
 
 .contactBtn {
   background-color: #8eb2af !important;
   cursor: pointer;
+  
 }
 
 .resumeBtn {

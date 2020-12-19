@@ -17,12 +17,16 @@ p {
 .aboutText{
     text-align: center;
     padding-top: 20px;
+    padding-bottom: 20px;
     font-family: 'Source Code Pro', monospace;
+    margin-top: 1rem;
+  
   }
 
 .bioImg {
     height: 350px;
     border-radius: 200px;
+    border: 4px solid khaki;
 }
 
 
