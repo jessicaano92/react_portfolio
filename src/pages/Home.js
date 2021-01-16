@@ -1,5 +1,6 @@
 import React from 'react';
 import "./Home.css"
+import ReactTypingEffect from "react-typing-effect";
 
 
 
@@ -9,7 +10,12 @@ function Home () {
         <>
 
         <div>
-            <h1 className="name" style={{letterSpacing: "0.181818em", color: 'whitesmoke'}}>Jessica Anocibar</h1>
+            <ReactTypingEffect
+                text="Jessica Anocibar"
+                className="name"
+                typingDelay="2000ms"
+                style={{letterSpacing: "0.181818em", color: 'whitesmoke'}}
+                />
         </div>
         <div className="topNav">
             <a href="/Home" style={{letterSpacing: "0.181818em", color: 'whitesmoke'}}>Home </a>
