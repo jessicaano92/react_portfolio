@@ -1,4 +1,4 @@
-import React, { useState, useEffect } from "react";
+import React, { useState } from "react";
 import * as ReactBootstrap from "react-bootstrap";
 import { FaGithub, FaLinkedin } from "react-icons/fa";
 import axios from 'axios';

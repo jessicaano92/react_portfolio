@@ -1,8 +1,7 @@
 import React from "react";
-import Button from '@material-ui/core/Button';
 import './Biography.css';
 import image from "../../src/assets/jessica.jpg";
-import { Card } from "react-bootstrap";
+
 
 
 
@@ -37,27 +36,4 @@ export default function Biography() {
 
 
 
-
-
-
-  {/* <Card className="bg-dark text-white">
-  <Card.Title className="bioCard">Full Stack Web Developer</Card.Title>
-  <Card.Img className="img-fluid bioImg" src={image} alt="Jessica Anocibar" /> 
-  <Card.ImgOverlay>
-    <Card.Text>
-    I am a Full Stack Web Developer with a background in travel and hospitality.  I recently earned a certificate in Full Stack Development from the University of Denver, where I developed skills in JavaScript, Express, Node.js, MySQL, Sequelize, MongoDB, Mongoose, React.js, MERN stack, HTML, Handlebars, and CSS. 
-
-An innovative problem solver passionate about developing apps, with a focus on functionality and design. My background in customer service and high expectations of customer satisfactory help me approach problems with creativity and teamwork. 
-
-With each project, I aim to understand how to best engage users for an impactful user experience. I applied React.js in a recent project where I worked in a team of 5 to develop a MERN app that allows users to make registries to save gift ideas for friends and family to view and purchase.
-
-When I’m not developing or designing, I enjoy camping, biking, spending time with my family, or researching the latest trend on web development.
-
-I’m excited to leverage my skills in the future as part of a fast-paced, quality-driven team. Please feel free to reach out through my contact page! Let's connect.
-    </Card.Text>
-    <Card.Text>Phone Number: 541-891-6426 <br/>Email: j.anocibar92@gmail.com</Card.Text>
-  </Card.ImgOverlay>
-</Card> */}
-    
-   
- 
+  
