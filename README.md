@@ -45,6 +45,6 @@ React, Material UI, Bootstrap, Express, Axios
 
 GitHub Link - https://github.com/jessicaano92/react_portfolio
 
-Heroku Link - https://vast-hamlet-93976.herokuapp.com/
+Heroku Link - https://jessica-anocibar-portfolio.netlify.app/
 
 
