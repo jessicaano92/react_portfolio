@@ -10,12 +10,6 @@ My React portfolio provides a polished new portfolio using React instead of the 
 npm i
 
 
-## Credits
-
-I have to thank my professor and my TA's for all of the information and help regarding this assignment and using React.
-
-
-
 ## License
 
 MIT License
