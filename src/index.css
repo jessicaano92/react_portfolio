@@ -1,11 +1,16 @@
-
-
- body {
+/* .panel {
   background-image: url('./assets/bg1.jpg');
   height: 80%;
   background-repeat: no-repeat;
   background-size: cover;
- 
+} */
+
+  body {
+  background-image: url('./assets/bg1.jpg');
+  height: 80%;
+  background-repeat: no-repeat;
+  background-size: cover;
+
 } 
 
 .contactPage{
@@ -79,3 +84,4 @@
   height: 35rem;
   width: 35rem;
 }
+
